@@ -1,0 +1,45 @@
+html {
+  font-family: helvetica, arial, sans-serif;
+}
+
+h1,
+h2,
+.price {
+  font-weight:bold;
+}
+
+.main-header {
+  /*  To vertically center h1: I am not sure if it's okay to use flexbox these days, since some older IE versions don't support it.
+  If not, do I need to give the parent element a height to position the h1, or...? */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-header h1 {
+  color: khaki;
+  font-size: 100px;
+  text-align: center;
+  background-image: url("../images/pattern.jpeg");
+}
+
+h2 {
+  color: white;
+  font-size: 32px;
+}
+
+.brushes h2 {
+  background-color: mediumspringgreen;
+}
+
+.frames h2 {
+  background-color: lightcoral;
+}
+
+.paint h2 {
+  background-color: skyblue;
+}
+
+.price {
+   color: blue;
+}
